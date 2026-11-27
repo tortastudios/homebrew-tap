@@ -2,28 +2,28 @@
 class Proofmarks < Formula
   desc "Marks what reads like AI slop on your page and says why"
   homepage "https://github.com/tortastudios/proofmarks"
-  version "0.1.0"
+  version "0.1.1"
   license "FSL-1.1-MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tortastudios/proofmarks/releases/download/v0.1.0/proofmarks-0.1.0-darwin-arm64.tar.gz"
-      sha256 "0a1b36471787386056cb7cc74d78d622f936d8552b274f7770f9407dc118f189"
+      url "https://github.com/tortastudios/proofmarks/releases/download/v0.1.1/proofmarks-0.1.1-darwin-arm64.tar.gz"
+      sha256 "753d58c6c7becd3f9c84b4a7be42b4d50697528b2661d8604aee87725ba72463"
     end
     on_intel do
-      url "https://github.com/tortastudios/proofmarks/releases/download/v0.1.0/proofmarks-0.1.0-darwin-x64.tar.gz"
-      sha256 "70347880f935741fe558842298ffd38cd7cc079524855b59000a32eaab1caa8e"
+      url "https://github.com/tortastudios/proofmarks/releases/download/v0.1.1/proofmarks-0.1.1-darwin-x64.tar.gz"
+      sha256 "1a4e7da8bc86e1a68555c63ec8e18874083189214f6a5c82378707ceb2cb8e0b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tortastudios/proofmarks/releases/download/v0.1.0/proofmarks-0.1.0-linux-arm64.tar.gz"
-      sha256 "eaa0d16dcab555229f224e9f619da8356f968f64f0671dd878a1fc18590746ab"
+      url "https://github.com/tortastudios/proofmarks/releases/download/v0.1.1/proofmarks-0.1.1-linux-arm64.tar.gz"
+      sha256 "1ef542277ed0cd636875db99b5d242311e2ca04a7c62cb12767e1a737d6aea5c"
     end
     on_intel do
-      url "https://github.com/tortastudios/proofmarks/releases/download/v0.1.0/proofmarks-0.1.0-linux-x64.tar.gz"
-      sha256 "0f14764962667afb47ce106d671c46788c119d1dd706f778f94d76d28f5a82af"
+      url "https://github.com/tortastudios/proofmarks/releases/download/v0.1.1/proofmarks-0.1.1-linux-x64.tar.gz"
+      sha256 "c6eee2c69d98b0a971c2b1945dbf9a11f9ebd7ade8dbc3ff5f68efe5be943916"
     end
   end
 
